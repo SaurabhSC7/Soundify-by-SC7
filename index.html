@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="container">
+        <div class="toggle" onclick="togglemenu()"></div>
         <div class="navbar">
             <img src="images/0214ce37-d709-42e3-92c7-ff6deda7d5a6.jpg-output.png" class="logo">
             <ul>
@@ -45,6 +46,13 @@
                 icon.src = "images/play.png";
             }
         }
+        
+        function togglemenu(){
+      const menutoggle = document.querySelector(".toggle");
+      const nav = document.querySelector(".navbar");
+      menutoggle.classList.toggle("active");
+      nav.classList.toggle("active");
+    }
     </script>
 
 </body>
