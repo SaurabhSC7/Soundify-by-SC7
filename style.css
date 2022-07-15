@@ -84,10 +84,6 @@
 @media(max-width: 991px)
 {
     .left-col h1{
-        font-size: 90px;
-        color: #fff;
-        line-height: 110px;
-        float: left;
         opacity: 0.5;
     }
 
@@ -127,7 +123,7 @@
       position: relative;
       width: 30px;
       height: 30px;
-      background: url(images/menu.png);
+      background: url("images/menu.png");
       background-size: 30px;
       background-repeat: no-repeat;
       background-position: center;
@@ -138,7 +134,7 @@
   {
     position: fixed;
     right: 40px;
-    background: url(images/close.png);
+    background: url("images/close.png");
     background-size: 25px;
     background-repeat: no-repeat;
     background-po
